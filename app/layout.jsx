@@ -1,10 +1,11 @@
 import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 import '@styles/global.css';
+import Head from 'next/head';
 
 export const metadata = {
     title: "Promptopia",
-    description: "Discover & Share AI Prompts"
+    description: "Discover & Share AI Prompts",
 }
 
 const RootLayout = ({children}) => {
@@ -12,7 +13,6 @@ const RootLayout = ({children}) => {
     <html>
         <body>
         <Provider>
-        <link rel="icon" href="/images/logo.svg" />
             <div className='main'>
                 <div className='gradient'/>
             </div>
