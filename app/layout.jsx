@@ -12,6 +12,7 @@ const RootLayout = ({children}) => {
     <html>
         <body>
         <Provider>
+        <link rel="icon" href="/images/logo.svg" />
             <div className='main'>
                 <div className='gradient'/>
             </div>
